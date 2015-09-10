@@ -47,34 +47,42 @@
         "about": [
         	{
         		"about_title": "Ipsum sed commodo",
+                "about_link": "#",
         		"about_subtitle": "Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor."
         	},
         	{
         		"about_title": "Eleifend lorem ornare",
+                "about_link": "#",
         		"about_subtitle": "Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor."
         	},
         	{
         		"about_title": "Cubilia cep lobortis",
+                "about_link": "#",
         		"about_subtitle": "Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor."
         	},
         	{
         		"about_title": "Non semper interdum",
+                "about_link": "#",
         		"about_subtitle": "Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor."
         	},
         	{
         		"about_title": "Odio laoreet accumsan",
+                "about_link": "#",
         		"about_subtitle": "Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor."
         	},
         	{
         		"about_title": "Odio laoreet accumsan",
+                "about_link": "#",
         		"about_subtitle": "Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor."
         	},
         	{
         		"about_title": "Odio laoreet accumsan",
+                "about_link": "#",
         		"about_subtitle": "Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor."
         	},
         	{
         		"about_title": "Odio laoreet accumsan",
+                "about_link": "#",
         		"about_subtitle": "Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor."
         	}
         ],
@@ -84,6 +92,7 @@
         "instagram_link": "https://instagram.com",
         "github_link": "https://github.com",
         "email_link": "tmp@tmp.com",
+        "power_by": "powered by canner Inc",
         "company_name": "Landed"
     }   
 }

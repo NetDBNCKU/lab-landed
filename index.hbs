@@ -36,13 +36,13 @@
 				</header>
 
 			<!-- Banner -->
-				<section id="banner">
+				<section id="banner" style="text-align: left;">
 					<div class="content">
 						<header>
 							<h2>{{home_subtitle}}</h2>
 							<p>{{home_content}}</p>
 						</header>
-						<span class="image"><img src="{{home_photo}}" alt="" /></span>
+						
 					</div>
 					<a href="#{{work_first_id}}" class="goto-next scrolly">Next</a>
 				</section>
@@ -76,7 +76,7 @@
 							<div class="row uniform">
 							{{#each about}}
 								<section class="4u 6u(medium) 12u$(xsmall)">
-									<h3>{{this.about_title}}</h3>
+									<h3><a href="{{this.about_link}}">{{this.about_title}}</a></h3>
 									<p>{{this.about_subtitle}}</p>
 								</section>
 							{{/each}}
@@ -96,8 +96,8 @@
 						<li class="email-link"><a href="mailto:{{email_link}}" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
 					</ul>
 					<ul class="copyright">
-						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						<li>{{company_name}}</li>
+						<li class="company-detail">{{power_by}}</li>
+						<li class="company-detail">{{company_name}}</li>
 					</ul>
 				</footer>
 
