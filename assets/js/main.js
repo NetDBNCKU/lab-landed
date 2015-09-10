@@ -20,26 +20,34 @@
 			$body = $('body');
 
 		// Learn More Button
-		$(".learn-more").each(function(i, obj) {
-			var learn_more_href = $(this).attr("href");
-			if (learn_more_href === "") {
-				$(this).hide();
-			}
-		});
+			$(".learn-more").each(function(i, obj) {
+				var learn_more_href = $(this).attr("href");
+				if (learn_more_href === "") {
+					$(this).hide();
+				}
+			});
 
 		// Social link
-		$(".social-link").each(function(i, obj) {
-			var social_link_href = $(this).find("a").attr("href");
-			if (social_link_href === "") {
-				$(this).hide();
-			}
-		});
+			$(".social-link").each(function(i, obj) {
+				var social_link_href = $(this).find("a").attr("href");
+				if (social_link_href === "") {
+					$(this).hide();
+				}
+			});
 
 		// Email link
-		var email_link_href = $(".email-link").find("a").attr("href");
-		if (email_link_href === "mailto:") {
-			$(".email-link").hide();
-		}
+			var email_link_href = $(".email-link").find("a").attr("href");
+			if (email_link_href === "mailto:") {
+				$(".email-link").hide();
+			}
+
+		// Company Detail
+			$(".company-detail").each(function(i, obj) {
+				var company_detail_text = $(this).text();
+				if (company_detail_text === "") {
+					$(this).hide();
+				}
+			});
 
 		// Disable animations/transitions until the page has loaded.
 			$body.addClass('is-loading');
