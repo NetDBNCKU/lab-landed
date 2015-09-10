@@ -1,6 +1,6 @@
 {
   "name": "lab-landed",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "canner can",
   "main": "gulpfile.js",
   "dependencies": {
