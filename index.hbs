@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>{{title}}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body class="landing">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html">{{title}}</a></h1>
+					<nav id="nav">
+						<ul>
+							<li>
+								<a href="#">{{second_title}}</a>
+								<ul>
+								{{#each work}}
+									<li><a href="#{{this.work_id}}" class="scrolly">{{this.work_title}}</a></li>
+								{{/each}}
+								</ul>
+							</li>
+							<li><a href="#about_us" class="scrolly">{{third_title}}</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Banner -->
+				<section id="banner">
+					<div class="content">
+						<header>
+							<h2>{{home_subtitle}}</h2>
+							<p>{{home_content}}</p>
+						</header>
+						<span class="image"><img src="{{home_photo}}" alt="" /></span>
+					</div>
+					<a href="#{{work_first_id}}" class="goto-next scrolly">Next</a>
+				</section>
+
+				{{#each work}}
+				<section id="{{this.work_id}}" class="spotlight style2 {{this.left_or_right}}">
+					<span class="image fit main"><img src="{{this.work_photo}}" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>{{this.work_title}}</h2>
+							<p>{{this.work_subtitle}}</p>
+						</header>
+						<p>{{this.work_content}}</p>
+						<ul class="actions">
+							<li><a href="{{this.work_link_href}}" class="button learn-more">{{this.work_link_title}}</a></li>
+						</ul>
+					</div>
+					<a href="#{{this.next_work_id}}" class="goto-next scrolly">Next</a>
+				</section>
+				{{/each}}
+
+
+			<!-- Four -->
+				<section id="about_us" class="wrapper style1 special fade-up">
+					<div class="container">
+						<header class="major">
+							<h2>{{third_title}}</h2>
+							<p>{{third_subtitle}}</p>
+						</header>
+						<div class="box alt">
+							<div class="row uniform">
+							{{#each about}}
+								<section class="4u 6u(medium) 12u$(xsmall)">
+									<h3>{{this.about_title}}</h3>
+									<p>{{this.about_subtitle}}</p>
+								</section>
+							{{/each}}
+							</div>
+						</div>
+					</div>
+				</section>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li class="social-link"><a href="{{twitter_link}}" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+						<li class="social-link"><a href="{{fb_link}}" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+						<li class="social-link"><a href="{{linkedin_link}}" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li class="social-link"><a href="{{instagram_link}}" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+						<li class="social-link"><a href="{{github_link}}" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+						<li class="email-link"><a href="mailto:{{email_link}}" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>{{company_name}}</li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

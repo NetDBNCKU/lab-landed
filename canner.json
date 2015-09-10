@@ -1,0 +1,89 @@
+{
+    "layout": "./index.hbs",
+    "data": {
+        "title": "Landed",
+        "second_title": "Works",
+        "third_title": "About us",
+        "home_subtitle": "The future has landed",
+        "home_content": "And there are no hoverboards or flying cars.",
+        "home_photo": "images/pic01.jpg",
+        "work_first_id": "odio",
+        "work": [
+        	{
+        		"work_id": "odio",
+        		"left_or_right": "right",
+        		"work_title": "Odio faucibus ipsum integer consequat",
+        		"work_subtitle": "Nascetur eu nibh vestibulum amet gravida nascetur praesent",
+        		"work_content": "Feugiat accumsan lorem eu ac lorem amet sed accumsan donec. Blandit orci porttitor semper. Arcu phasellus tortor enim mi nisi praesent dolor adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor accumsan consequat adipiscing lorem dolor.",
+        		"work_photo": "images/pic02.jpg",
+        		"work_link_href": "#",
+        		"work_link_title": "Learn More",
+        		"next_work_id": "interdum"
+        	},
+        	{
+        		"work_id": "interdum",
+        		"left_or_right": "left",
+        		"work_title": "Interdum felis blandit praesent sed augue",
+        		"work_subtitle": "Accumsan integer ultricies aliquam vel massa sapien phasellus",
+        		"work_content": "Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.",
+        		"work_photo": "images/pic04.jpg",
+        		"work_link_href": "#",
+        		"work_link_title": "Learn More",
+        		"next_work_id": "interdum1"
+        	},
+        	{
+        		"work_id": "interdum1",
+        		"left_or_right": "right",
+        		"work_title": "Interdum felis blandit praesent sed augue1",
+        		"work_subtitle": "Accumsan integer ultricies aliquam vel massa sapien phasellus",
+        		"work_content": "Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.",
+        		"work_photo": "images/pic04.jpg",
+        		"work_link_href": "",
+        		"work_link_title": "Learn More",
+        		"next_work_id": "about_us"
+        	}
+        ],
+        "third_subtitle": "Iaculis ac volutpat vis non enim gravida nisi faucibus posuere arcu consequat",
+        "about": [
+        	{
+        		"about_title": "Ipsum sed commodo",
+        		"about_subtitle": "Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor."
+        	},
+        	{
+        		"about_title": "Eleifend lorem ornare",
+        		"about_subtitle": "Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor."
+        	},
+        	{
+        		"about_title": "Cubilia cep lobortis",
+        		"about_subtitle": "Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor."
+        	},
+        	{
+        		"about_title": "Non semper interdum",
+        		"about_subtitle": "Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor."
+        	},
+        	{
+        		"about_title": "Odio laoreet accumsan",
+        		"about_subtitle": "Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor."
+        	},
+        	{
+        		"about_title": "Odio laoreet accumsan",
+        		"about_subtitle": "Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor."
+        	},
+        	{
+        		"about_title": "Odio laoreet accumsan",
+        		"about_subtitle": "Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor."
+        	},
+        	{
+        		"about_title": "Odio laoreet accumsan",
+        		"about_subtitle": "Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor."
+        	}
+        ],
+        "twitter_link": "https://twitter.com",
+        "fb_link": "https://facebook.com",
+        "linkedin_link": "https://linkedin.com",
+        "instagram_link": "https://instagram.com",
+        "github_link": "https://github.com",
+        "email_link": "tmp@tmp.com",
+        "company_name": "Landed"
+    }   
+}
