@@ -4,11 +4,11 @@
         "title": "Landed",
         "second_title": "Works",
         "third_title": "About us",
+        "third_subtitle": "Iaculis ac volutpat vis non enim gravida nisi faucibus posuere arcu consequat",
         "banner-position": "center",
         "banner-image": "images/pic02.jpg",
         "home_subtitle": "The future has landed",
         "home_content": "And there are no hoverboards or flying cars.",
-        "home_photo": "images/pic01.jpg",
         "work_first_id": "odio",
         "work": [
         	{
@@ -45,7 +45,6 @@
         		"next_work_id": "about_us"
         	}
         ],
-        "third_subtitle": "Iaculis ac volutpat vis non enim gravida nisi faucibus posuere arcu consequat",
         "about": [
         	{
         		"about_title": "Ipsum sed commodo",
@@ -96,5 +95,105 @@
         "email_link": "tmp@tmp.com",
         "power_by": "powered by canner Inc",
         "company_name": "Landed"
-    }   
+    },
+    "columns": {
+        "title": {
+            "~description": "你實驗室的名稱"
+        },
+        "second_title": {
+            "~description": "關於你專案的標題"
+        },
+        "third_title": {
+            "~description": "關於你們組織的標題"
+        },
+        "third_subtitle": {
+            "~description": "關於你們組織的內容"
+        },
+        "banner-position": {
+            "~description": "你首頁文字的位置，左(left)中(center)右(right)"
+        },
+        "banner-image": {
+            "~description": "你首頁的圖片",
+            "~format": "image"
+        },
+        "home_subtitle": {
+            "~description": "你首頁的子標題"
+        },
+        "home_content": {
+            "~description": "你首頁的子內容"
+        },
+        "work_first_id": {
+            "~description": "你下一頁的id"
+        },
+        "work": {
+            "~description": "你的專案內容",
+            "work_id": {
+                "~description": "你這個專案的id"
+            },
+            "left_or_right": {
+                "~description": "你這個專案文字的位置，左(left)中(center)右(right)"
+            },
+            "work_title": {
+                "~description": "你這個專案的標題"
+            },
+            "work_subtitle": {
+                "~description": "你這個專案的子標題"
+            },
+            "work_content": {
+                "~description": "你這個專案的內容"
+            },
+            "work_photo": {
+                "~description": "你這個專案的照片",
+                "~format": "image"
+            },
+            "work_link_href": {
+                "~description": "你這個專案的連結"
+            },
+            "work_link_title": {
+                "~description": "你這個專案連結的標題"
+            },
+            "next_work_id": {
+                "~description": "下一個專案的id"
+            }
+        },
+        "about": {
+            "~description": "關於你們組織的資料",
+            "about_title": {
+                "~description": "關於你們成員的名稱"
+            },
+            "about_link": {
+                "~description": "關於你們成員的個人連結"
+            },
+            "about_subtitle": {
+                "~description": "關於你們成員的詳細內容"
+            }
+        },
+        "twitter_link": {
+            "~description": "你的twitter帳號",
+            "~format": "user.socmed.twitter.account"
+        },
+        "fb_link": {
+            "~description": "你的facebook帳號",
+            "~format": "user.socmed.fb.account"
+        },
+        "linkedin_link": {
+            "~description": "你的linkedin連結"
+        },
+        "instagram_link": {
+            "~description": "你的instagram連結"
+        },
+        "github_link": {
+            "~description": "你的github連結"
+        },
+        "email_link": {
+            "~description": "你的email",
+            "~format": "user.profile.email"
+        },
+        "power_by": {
+            "~description": "由誰製作的"
+        },
+        "company_name": {
+            "~description": "你的實驗室對外名稱"
+        }
+    }
 }
