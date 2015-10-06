@@ -1,6 +1,6 @@
 {
   "name": "lab-landed",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "canner can",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,7 +12,6 @@
   "keywords": [
     "canner-can",
     "lab",
-    "other"
   ],
   "author": "frankyang",
   "license": "MIT",
