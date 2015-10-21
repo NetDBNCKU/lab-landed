@@ -1,22 +1,23 @@
 {
   "name": "lab-landed",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "canner can",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Canner-can/lab-landed.git"
+    "url": "https://github.com/NetDBNCKU/lab-landed.git"
   },
   "keywords": [
     "canner-can",
+    "beta",
     "lab"
   ],
   "author": "frankyang",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Canner-can/lab-landed/issues"
+    "url": "https://github.com/NetDBNCKU/lab-landed/issues"
   },
-  "homepage": "https://github.com/Canner-can/lab-landed"
+  "homepage": "https://github.com/NetDBNCKU/lab-landed"
 }
